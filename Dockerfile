@@ -12,6 +12,8 @@ WORKDIR /
 
 COPY --from=build /build/alertmanager-mqtt-bridge /alertmanager-mqtt-bridge
 EXPOSE 8031
-USER nonroot:nonroot
+RUN useradd -ms /bin/bash app
+
+USER app
 
 ENTRYPOINT ["/alertmanager-mqtt-bridge"]
