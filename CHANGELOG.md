@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/dblencowe/alertmanager-mqtt-bridge/compare/v1.0.2...v1.0.3) (2023-06-30)
+
+
+### Bug Fixes
+
+* disables home and password for app user ([d7789b3](https://github.com/dblencowe/alertmanager-mqtt-bridge/commit/d7789b3f9af90c9a25f6eee1d43df5c725e32314))
+
 ### [1.0.2](https://github.com/dblencowe/alertmanager-mqtt-bridge/compare/v1.0.1...v1.0.2) (2023-06-30)
 
 
