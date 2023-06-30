@@ -47,6 +47,7 @@ func main() {
 		log.Fatal(err)
 	}
 
+	log.Printf("Connecting to MQTT broker %s", mqttUrl.String())
 	mqttOpts := mqtt.NewClientOptions().AddBroker(mqttUrl.String()).SetClientID(getProgramName()).SetUsername(mqttUrl.User.Username())
 	password, isSet := mqttUrl.User.Password()
 	if isSet {
@@ -61,6 +62,7 @@ func main() {
 
 	http.HandleFunc("/", httpHandler)
 
+	log.Printf("Starting HTTP listener on %s", opts.HttpBindAddress)
 	log.Fatal(http.ListenAndServe(opts.HttpBindAddress, nil))
 }
 
