@@ -12,7 +12,7 @@ WORKDIR /
 
 COPY --from=build /build/alertmanager-mqtt-bridge /alertmanager-mqtt-bridge
 EXPOSE 8031
-RUN useradd -ms /bin/bash app
+RUN adduser -DHs /bin/bash app
 
 USER app
 
