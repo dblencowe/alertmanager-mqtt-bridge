@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/dblencowe/alertmanager-mqtt-bridge/compare/v1.0.3...v1.0.4) (2023-06-30)
+
+
+### Features
+
+* adds some information output on startup ([e1ca1f4](https://github.com/dblencowe/alertmanager-mqtt-bridge/commit/e1ca1f4c9a299be7ee27d40267f6dbc77709220a))
+
 ### [1.0.3](https://github.com/dblencowe/alertmanager-mqtt-bridge/compare/v1.0.2...v1.0.3) (2023-06-30)
 
 
